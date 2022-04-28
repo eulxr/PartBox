@@ -77,10 +77,6 @@ function Hitbox.CreateHitbox(data)
 	setmetatable(self, Hitbox)
 	return self
 end
-
-function Hitbox.is(obj)
-	return getmetatable(obj) == Hitbox and rawget(obj.StartTouched) ~= nil
-end
 --======================================OBJECT METHODS============================================
 
 function prototype:_makeTween(info, data)
