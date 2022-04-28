@@ -1,5 +1,6 @@
 --=======================================PartBox v1.0==============================================
 --@author: awzxd
+--This is one of my first module , so I have doubts about its optimization =(
 
 local TweenService = game:GetService("TweenService")
 local Signal = require(game.ReplicatedStorage.Packages.Signal)
